@@ -1,0 +1,90 @@
+.main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container{
+  display: fixed;
+  background-color: #fcf68c;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 300px;
+}
+
+.add-container{
+  display: flex;
+  position: relative;
+  background-color: #5f360cf3;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 25px;
+}
+
+.list-container{
+  position: relative;
+  right: 20px;
+}
+
+.list-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  margin-bottom: 15px;
+}
+
+#input-bar{
+  padding: 5px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.add-btn{
+  font-size: 20px;
+  background-color: #fcf68c;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  box-shadow: inherit;
+  cursor: pointer;
+}
+
+.add-btn:hover{
+  background-color: #d8d37b;
+}
+
+.add-btn:active{
+  transform: translateY(3px);
+}
+
+.delete-btn{
+  font-size: 12px;
+  background-color: #e74c3c;
+  padding: 5px;
+  width: 25px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: inherit;
+  cursor: pointer;
+}
+
+.delete-btn:active{
+  transform: translateY(2px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+li{
+  list-style-type: none;
+}
+
